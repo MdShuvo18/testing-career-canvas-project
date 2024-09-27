@@ -1,8 +1,10 @@
+import { FaStar } from "react-icons/fa";
+
 /* eslint-disable react/prop-types */
 const TemplatesModal = ({ isOpen, toggleTemplatesModal }) => {
     return isOpen ? (
         <dialog id="templates_modal" className="modal" open>
-            <div className="p-10 bg-white rounded-lg shadow-lg">
+            <div className="p-10  bg-white rounded-lg shadow-lg">
                 <div className="grid grid-cols-2 justify-items-center">
                     <div className="text-start">
                         <h3 className="font-bold text-5xl mb-4">Choose Template</h3>
@@ -11,13 +13,14 @@ const TemplatesModal = ({ isOpen, toggleTemplatesModal }) => {
                             We’ve talked with thousands of employers to get the answers.
                         </p>
                     </div>
-                    <img className="w-[190px] h-[190px]" src="/templatePhoto.svg" alt="" />
+                    <img className="w-[190px] h-[190px]" src="https://i.ibb.co.com/ZXbtXgP/download.png" alt="" />
                 </div>
 
                 {/* recommened part start */}
 
                 <div className="flex justify-start items-center gap-2 mb-3">
-                    <img className="w-5 h-5" src="/star-svgrepo-com.svg" alt="" />
+                    {/* <img className="w-5 h-5" src="/star-svgrepo-com.svg" alt="" /> */}
+                    <FaStar className="w-5 h-5"/>
                     <h1 className="text-2xl font-bold text-start">Recommended</h1>
                 </div>
 
