@@ -92,7 +92,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center hidden lg:flex">
           <Link
             to="/"
             className="btn btn-ghost text-3xl font-extrabold bg-gradient-to-r from-green-500 to-slate-500 bg-clip-text text-transparent"
