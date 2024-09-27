@@ -2,7 +2,7 @@
 const TemplatesModal = ({ isOpen, toggleTemplatesModal }) => {
     return isOpen ? (
         <dialog id="templates_modal" className="modal" open>
-            <div className="p-10 w-auto h-auto bg-white rounded-lg shadow-lg">
+            <div className="p-10 bg-white rounded-lg shadow-lg">
                 <div className="grid grid-cols-2 justify-items-center">
                     <div className="text-start">
                         <h3 className="font-bold text-5xl mb-4">Choose Template</h3>
